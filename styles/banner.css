@@ -1,0 +1,33 @@
+.banner{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #fc8621;
+    color: #fff;
+}
+
+
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content h2 {
+    font: 500 24px "Playfair Display";
+    line-height: 1.2;
+}
+
+.banner-content button {
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: 0s;
+}
+
+.banner-content button:hover{
+    background-color: #fff;
+    color: #fc8621;
+}
